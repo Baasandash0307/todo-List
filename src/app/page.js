@@ -2,23 +2,26 @@
 
 import { useState } from "react";
 export default function Home() {
-  let [counter, setCounter] = useState(0)
-  const add = () => {
-    setCounter(counter + 1);
+  
+  const [todos, setTodos] = useState([]);
+
+  const addTodo = () => {
+    const arr = [];
+    arr.push({title: "hicheel zaah" , createAt: new Date()})
+    setTodos(arr);
   }
   const sub = () => {
-    if(counter == 0){
-      return false
-    }
-    setCounter(counter - 1);
+    
   }
 
   return (
-  <div>
-      <h1> {counter} </h1>
-    <button onClick={add}>Add</button> 
-    <br></br>
-    <button onClick={sub}>Sub</button>
-  </div>
+    <div>
+      <h1>ToDo</h1>
+      <button onClick={addTodo}>Add</button>
+      {todos.map((todo) => (
+        <div>{todo.title}</div>
+      ))}
+      <button onClick={sub}>X</button>
+    </div>
   );
 }
