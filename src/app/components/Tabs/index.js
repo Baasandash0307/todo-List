@@ -8,14 +8,14 @@ const Tabs = () => {
                 <button>Completed</button>
             </div>
             <p className={styles.text1}>
-            No tasks yet. Add one above!
+                No tasks yet. Add one above!
             </p>
             <div className={styles.footer}>
                 <p className={styles.text2}>
-                    Powered by 
+                    Powered by
                 </p>
                 <p className={styles.text3}>
-                    Pinecone Academy 
+                    Pinecone Academy
                 </p>
             </div>
         </div>

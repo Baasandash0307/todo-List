@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-.cardContainer{
+.cardContainer {
     width: 377px;
     height: 290px;
     display: flex;
@@ -13,4 +13,11 @@
     background: #FFF;
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.16);
     font-family: "Inter", serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 200px;
 }

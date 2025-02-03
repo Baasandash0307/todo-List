@@ -1,40 +1,46 @@
-.tabsContainer{
+.tabsContainer {
     width: 377px;
     height: 32px;
 }
-.buttons{
+
+.buttons {
     width: 377;
     height: 32px;
     display: flex;
     gap: 6px;
 }
-.buttons button{
+
+.buttons button {
     width: auto;
     height: 40px;
     border-radius: 6px;
     border: none;
-    background: rgba(185, 183, 183, 0.827);
-    color: white;
+    background: gray(185, 183, 183, 0.827);
+    color: black;
     padding: 8px 16px;
     cursor: pointer;
 }
-.text1{
+
+.text1 {
     font-size: 14px;
     display: flex;
     justify-content: center;
     color: gray;
     margin: 30px;
 }
-.text2{
+
+.text2 {
     font-size: 12px;
     color: gray;
 }
-.text3{
+
+.text3 {
     font-size: 12px;
     color: #3C82F6;
     position: relative;
 }
-.footer{
+
+.footer {
     width: 377;
     display: flex;
     justify-content: center;
