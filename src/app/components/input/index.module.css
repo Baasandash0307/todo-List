@@ -1,0 +1,22 @@
+.inputContainer{
+    display: flex;
+    height: 38px;
+    align-items: center;
+    gap: 6px;
+}
+.inputContainer input{
+    width: 280px;
+    height: 30px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: 1px solid var(--border-border-border, #E4E4E7);
+}
+.inputContainer button{
+    height: 50px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background: #3C82F6;
+    border: none;
+    color: white;
+    cursor: pointer;
+}   

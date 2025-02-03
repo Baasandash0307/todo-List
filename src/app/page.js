@@ -1,27 +1,17 @@
 'use client'
+import styles from "./page.module.css"
+import Title from "../app/components/title/index"
+import Input from "../app/components/input/index"
+import Tabs from "../app/components/Tabs/index"
 
 import { useState } from "react";
 export default function Home() {
   
-  const [todos, setTodos] = useState([]);
-
-  const addTodo = () => {
-    const arr = [];
-    arr.push({title: "hicheel zaah" , createAt: new Date()})
-    setTodos(arr);
-  }
-  const sub = () => {
-    
-  }
-
   return (
-    <div>
-      <h1>ToDo</h1>
-      <button onClick={addTodo}>Add</button>
-      {todos.map((todo) => (
-        <div>{todo.title}</div>
-      ))}
-      <button onClick={sub}>X</button>
+    <div className={styles.cardContainer}>
+      <Title></Title>
+      <Input></Input>
+      <Tabs></Tabs>
     </div>
   );
 }
