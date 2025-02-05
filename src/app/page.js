@@ -3,6 +3,7 @@ import styles from "./page.module.css"
 import Title from "../app/components/title/index"
 import Input from "../app/components/input/index"
 import Tabs from "../app/components/Tabs/index"
+import Footer from "../app/components/footer/index"
 
 import { useState } from "react";
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
         <Title></Title>
         <Input></Input>
         <Tabs></Tabs>
+        <Footer></Footer>
       </div>
     </div>
   );

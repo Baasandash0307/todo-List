@@ -28,21 +28,3 @@
     color: gray;
     margin: 30px;
 }
-
-.text2 {
-    font-size: 12px;
-    color: gray;
-}
-
-.text3 {
-    font-size: 12px;
-    color: #3C82F6;
-    position: relative;
-}
-
-.footer {
-    width: 377;
-    display: flex;
-    justify-content: center;
-    gap: 4px;
-}
