@@ -5,7 +5,6 @@ import Input from "../app/components/input/index"
 import Tabs from "../app/components/Tabs/index"
 import Footer from "../app/components/footer/index"
 
-import { useState } from "react";
 export default function Home() {
 
   return (
