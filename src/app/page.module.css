@@ -88,6 +88,11 @@
     color: black;
     padding: 8px 16px;
     cursor: pointer;
+    transition: 0.2s;
+}
+.buttons button:hover{
+    background-color: #3b73ed;
+    color: white;
 }
 
 .text1 {
