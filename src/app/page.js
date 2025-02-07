@@ -43,10 +43,9 @@ export default function Home() {
 
   const filteredTasks = tasks.filter((task) => {
     if (filter === "All") return true;
-    if (filter === "Active") return !task.completed;
-    if (filter === "Completed") return task.completed;
+    else if (filter === "Active") return !task.completed;
+    else if (filter === "Completed") return task.completed;
   });
-
 
   return (
     <div className={styles.container}>
