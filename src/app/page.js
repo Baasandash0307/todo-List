@@ -76,13 +76,15 @@ export default function Home() {
 
         {filteredTasks.map((task, index) => (
           <div key={task.id} className={styles.task}>
-            <input
-              type="checkbox"
-              checked={task.completed}
-              onChange={() => toggleCompleted(index)}
-            ></input>
+            <div>
+              <input
+                type="checkbox"
+                checked={task.completed}
+                onChange={() => toggleCompleted(index)}
+              ></input>
 
-            <span className={task.completed ? "done" : ""}>{task.text}</span>
+              <span className={task.completed ? "done" : ""}>{task.text}</span>
+            </div>
 
             <div className="deleteContainer">
               <button className={styles.deleteButton} onClick={() => deleteTask(task.id)}>Delete</button>

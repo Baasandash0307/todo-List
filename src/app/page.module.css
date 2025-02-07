@@ -139,6 +139,7 @@
     background: #f9fafb;
     cursor: pointer;
     transition: 0.3s;
+    justify-content: space-between;
 }
 
 .task:hover {
@@ -153,6 +154,7 @@
     border: 1px solid #767676;
     background: #FFF;
     text-decoration: line-through;
+    align-items: center;
 }
 
 .task .done {
@@ -162,12 +164,13 @@
     margin-block-end: 1em;
     word-break: break-all;
     cursor: pointer;
+    display: flex;
 }
 
 .deleteButton {
     display: flex;
     padding: 6px 12px;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     gap: 10px;
     align-self: stretch;
