@@ -35,7 +35,7 @@ export default function Home() {
   }
 
   function deleteTask(id) {
-    if (confirm("itgeltei baina uu?")) {
+    if (confirm("Итгэлтэй байна уу?")) {
       const clonedTasks = tasks.filter((task) => task.id !== id);
       setTasks(clonedTasks);
     }
