@@ -30,7 +30,7 @@ export default function Home() {
 
   function toggleCompleted(index) {
     const clonedTasks = [...tasks];
-    clonedTasks[index].completed = !clonedTasks[index].completed;
+    clonedTasks[index].completed = !clonedTasks[index].completed
     setTasks(clonedTasks);
   }
 
