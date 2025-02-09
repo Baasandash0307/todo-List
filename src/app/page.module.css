@@ -166,6 +166,7 @@
     border: 1px solid #767676;
     background: #FFF;
     align-items: center;
+    text-decoration: line-through;
 }
 
 .task .done {
